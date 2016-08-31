@@ -1,0 +1,47 @@
+body{
+    padding-top: 20px;
+}
+.cookie{
+    float: left;
+}
+#cookiePass,
+#name,
+#walletNumber,
+#balance{
+    display: block;
+    width: 100%;
+    word-break: break-all;
+}
+#cookieExpiring{
+    width:100%;
+    height:50px;
+    float: right;
+}
+#textResult{
+    margin-top: 20px;
+    height: 100px;
+    overflow: auto;
+    word-break: break-all;
+}
+.balance-title{
+    font-weight: bold;
+}
+#wallet-preloader,
+#transaction-preloader{
+    width: 100%;
+    height: 100%;
+}
+#wallet-preloader img,
+#transaction-preloader img{
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+#transactions-block .transaction-item li{
+    padding: 4px;
+}
+#transactions-block .transaction-item td{
+    height: 30px;
+    font-size: 0.65em;
+}
